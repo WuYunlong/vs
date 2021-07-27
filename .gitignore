@@ -1,6 +1,9 @@
 .DS_Store
 npm-debug.log
 Thumbs.db
+yarn.lock
 
-node_modules/
-lib/
+.idea
+.vscode
+node_modules
+lib
