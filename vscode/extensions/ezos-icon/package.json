@@ -1,0 +1,46 @@
+{
+  "name": "ezos-icon",
+  "displayName": "Ezos Icon Theme",
+  "description": "Ezos Icon Theme for VSCode",
+  "publisher": "WuYunlong",
+	"author": {
+		"name": "WuYunlong",
+		"email": "17771258@qq.com",
+		"url": "https://03v.cn"
+	},
+  "version": "1.0.1",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WuYunlong/Ezos-Icon"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "keywords": [
+    "jetbrains",
+    "icon",
+    "theme",
+    "intellij"
+  ],
+  "bugs": {
+		"url": "https://github.com/WuYunlong/Ezos-Icon/issues"
+	},
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "ezos-icon",
+        "label": "Ezos Icon Theme",
+        "path": "icons.json"
+      }
+    ]
+  }
+}

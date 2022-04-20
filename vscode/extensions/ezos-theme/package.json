@@ -1,0 +1,79 @@
+{
+  "name": "ezos-theme",
+  "displayName": "Ezos Theme",
+  "description": "A comfortable and semantic theme.",
+  "version": "1.0.0",
+  "publisher": "WuYunlong",
+  "preview": true,
+  "license": "MIT",
+  "homepage": "https://github.com/WuYunlong/Ezos-Theme",
+  "bugs": {
+    "url": "https://github.com/WuYunlong/Ezos-Theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true
+  },
+  "galleryBanner": {
+    "color": "#EBEEF5",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ezos Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ezos-Dark.json"
+      },
+      {
+        "label": "Ezos Dark Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ezos-Dark-Bold.json"
+      },
+      {
+        "label": "Ezos Dark Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ezos-Dark-Italic.json"
+      },
+      {
+        "label": "Ezos Light",
+        "uiTheme": "vs",
+        "path": "./themes/Ezos-Light.json"
+      },
+      {
+        "label": "Ezos Light Bold",
+        "uiTheme": "vs",
+        "path": "./themes/Ezos-Light-Bold.json"
+      },
+      {
+        "label": "Ezos Light Italic",
+        "uiTheme": "vs",
+        "path": "./themes/Ezos-Light-Italic.json"
+      }
+    ]
+  },
+  "keywords": [
+    "ezos",
+    "dark",
+    "light",
+    "theme",
+    "vscode"
+  ],
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
+  }
+}
