@@ -7,7 +7,7 @@ APP_ROOT=$(pwd)
 function main() {
   cd ${APP_ROOT}
 
-  cd vscode
+  cd lib/vscode
 	# 删除文件
 	rm -rf extensions/theme-abyss
 	rm -rf extensions/theme-kimbie-dark

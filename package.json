@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "clone": "./scripts/clone.sh",
-    "install": "./scripts/install.sh",
+    "inst": "./scripts/inst.sh",
     "sync": "./scripts/sync.sh",
-    "watch": "run-s clone install sync && run-p watch:*",
+    "watch": "run-s clone inst sync && run-p watch:*",
     "watch:vscode": "cd lib/vscode && yarn watch",
     "code": "./lib/vscode/scripts/code.sh"
   },
