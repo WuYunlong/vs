@@ -9,10 +9,13 @@
     "sync": "./scripts/sync.sh",
     "watch": "run-s clone inst sync && run-p watch:*",
     "watch:vscode": "cd lib/vscode && yarn watch",
-    "code": "./lib/vscode/scripts/code.sh"
+    "watch:src": "cd scripts/watch && node watch-src.js",
+    "watch:dist": "cd scripts/watch && node watch-dist.js",
+    "code": "./lib/vscode/scripts/code.sh",
+    "web": "./lib/vscode/scripts/code-web.sh"
   },
   "devDependencies": {
-    "chokidar": "^3.5.2",
+    "chokidar": "^3.5.3",
     "npm-run-all": "^4.1.5"
   }
 }
